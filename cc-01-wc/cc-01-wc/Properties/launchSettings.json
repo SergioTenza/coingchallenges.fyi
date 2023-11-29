@@ -1,0 +1,28 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "wc -l": {
+      "commandName": "Project",
+      "commandLineArgs": "-l\r\ntest.txt"
+    },
+    "wc -c": {
+      "commandName": "Project",
+      "commandLineArgs": "-c\r\ntest.txt"
+    },
+    "wc -w": {
+      "commandName": "Project",
+      "commandLineArgs": "-w\r\ntest.txt"
+    },
+    "wc -m": {
+      "commandName": "Project",
+      "commandLineArgs": "-m\r\ntest.txt"
+    },
+    "wc": {
+      "commandName": "Project",
+      "commandLineArgs": "test.txt"
+    }
+  }
+}
